@@ -1,0 +1,17 @@
+<div id="item-container">
+
+    <% @items.each_with_index do |item, i| %>
+      <div class="<%= i == 0 ? 'item item-first' : 'item'%>">
+      <%= image_tag(item['image'], :class => "item-image", :alt => item['subtitle']) %>
+        <div class='item-info'>
+          <h5 class='item-title'>
+            <%= item['title'] %>
+          </h5>
+          <p class='item-subtitle'>
+            <%= item['subtitle'] %>
+          </p>
+        </div>
+      </div>
+    <% end %>
+
+</div>

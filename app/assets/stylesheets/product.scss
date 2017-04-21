@@ -1,0 +1,134 @@
+#image-viewer-choices {
+  float: left;
+  height: 100%;
+  width:20%;
+
+  .image-choices {
+  opacity: 0.7;
+  transition: opacity .25s;
+  -moz-transition: opacity .25s;
+  -webkit-transition: opacity .25s;
+  }
+
+  .image-choices:hover {
+    opacity: 1;
+  }
+
+
+}
+
+#image-viewer-container {
+  float: left;
+  width: 50%;
+}
+#image-viewer-main {
+  float: right;
+  width: 80%;
+
+  .image-choices {
+    opacity: 1;
+  }
+
+}
+
+#order-form-container {
+  float: right;
+  padding: 20px;
+  width: 50%;
+}
+
+#product-container {
+  font-family: 'Montserrat', sans-serif;
+  left: 10%;
+  position: fixed;
+  top: 100px;
+  width: 90%;
+}
+
+
+.image-choices {
+  display: block;
+  width: 100%;
+}
+
+.product-name {
+  color: #6791ac;
+  font-size: 24px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.product-price {
+  color: #7b9196;
+  font-size: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.product-tagline {
+  color: gray;
+  font-size: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.options-buttons {
+  margin: auto;
+  padding-bottom: 16px;
+  width: 80%;
+}
+
+.option-button {
+  background: #ffffff;
+  border: solid #b8b8b8 2px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #8a8a8a;
+  float: left;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.option-button:hover {
+  border: solid #6791ac 2px;
+  text-decoration: none;
+}
+
+.option-selected {
+  border: solid #6791ac 2px;
+}
+
+.options-text {
+  color: #8a8a8a;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.purchase-button {
+  background: #6791ac;
+  border: solid #6791ac 2px;
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  margin: auto;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.quantity-drop-down {
+  clear: left;
+  color: #7b9196;
+  font-size: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+}
