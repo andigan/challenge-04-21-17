@@ -23,5 +23,4 @@ React components: https://github.com/andigan/challenge-04-21-17/tree/master/clie
 https://github.com/andigan/challenge-04-21-17/tree/master/app/views/main
 
 scss:
-
 https://github.com/andigan/challenge-04-21-17/tree/master/app/assets/stylesheets
