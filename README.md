@@ -1,24 +1,27 @@
-# README
+## Installation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This code uses the "react_on_rails" gem, and installation information is here: https://github.com/shakacode/react_on_rails/blob/master/docs/tutorial.md
 
-Things you may want to cover:
 
-* Ruby version
+* `bundle & yarn` -- install dependencies
+* `foreman start -f Procfile.dev` -- start dev server
 
-* System dependencies
 
-* Configuration
+## Routes
 
-* Database creation
 
-* Database initialization
+* `localhost:3000` -- .erb, scss, responsive design
+* `localhost:3000/product` -- React, javascript interactions
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Notable directories
 
-* Deployment instructions
 
-* ...
+React components: https://github.com/andigan/challenge-04-21-17/tree/master/client/app/bundles/Product/components
+
+.erb files:
+https://github.com/andigan/challenge-04-21-17/tree/master/app/views/main
+
+scss:
+
+https://github.com/andigan/challenge-04-21-17/tree/master/app/assets/stylesheets
