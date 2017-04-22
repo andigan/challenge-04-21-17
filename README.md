@@ -19,7 +19,7 @@ This code uses the "react_on_rails" gem, and installation information is here: h
 
 React components: https://github.com/andigan/challenge-04-21-17/tree/master/client/app/bundles/Product/components
 
-.erb files:
+.erb file:
 https://github.com/andigan/challenge-04-21-17/tree/master/app/views/main
 
 scss:
