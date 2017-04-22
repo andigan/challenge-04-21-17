@@ -2,7 +2,7 @@
 
 This code uses the "react_on_rails" gem, and installation information is here: https://github.com/shakacode/react_on_rails/blob/master/docs/tutorial.md
 
-
+* `gem install foreman` -- task runner
 * `bundle & yarn` -- install dependencies
 * `foreman start -f Procfile.dev` -- start dev server
 
